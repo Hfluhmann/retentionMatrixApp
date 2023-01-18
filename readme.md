@@ -11,11 +11,13 @@ pip install openpyxl
 ```
 
 ## Funcionamiento:
-- Tener en la misma carpeta archivos con nombre "BD Solicitudes 2022-presente" y "data.xlsm"
+- Crear 2 carpetas a la misma altura del ejecutable, llamadas "input" y "output"
+- En la carpeta "input" subir los archivos "BD Solicitudes 2022-presente" y "data.xlsm"
+- Crear un archivo "Ejecutivos.txt". Detalle de este archivo esta más abajo.
 - Nombres distintos romperan el programa
 - No tener ninguno de los archivos xlsm (excel) abiertos al ejecutar el programa
-- Al ejecutarse el programa se crearan 2 archivos: "Carga (Fecha_actual) TSF.xlsx" y "Carga para subir (Fecha_actual) TSF.xlsx"
-- El primer archivo cuenta con la carga del día actual. El segundo archivo, además, tiene eliminadas las columnas "Nombre Completo" y "Embudo"
+- Al ejecutarse el programa se crearan 2 archivos en la carpeta "output": "Carga (Fecha_actual) CRN.xlsx" y "Carga para subir (Fecha_actual) CRN.xlsx"
+- El primer archivo cuenta con la carga del día actual. El segundo archivo, además, tiene eliminadas las columnas "Nombre Completo" y "Embudo" y cambiados los campos "Universo Retenible NTFS" por "Universo Retenible" en la columna "tipo universo".
 - Si los archivos creados ya existían, se remplazarán
 
 ## Ejecutivos.txt
