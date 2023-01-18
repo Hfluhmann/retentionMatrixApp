@@ -13,7 +13,7 @@ pip install openpyxl
 ## Funcionamiento:
 - Crear 2 carpetas a la misma altura del ejecutable, llamadas "input" y "output"
 - En la carpeta "input" subir los archivos "BD Solicitudes 2022-presente" y "data.xlsm"
-- Crear un archivo "Ejecutivos.txt". Detalle de este archivo esta más abajo.
+- Crear un archivo "Ejecutivos.txt" en la carpeta "input". Detalle de este archivo esta más abajo.
 - Nombres distintos romperan el programa
 - No tener ninguno de los archivos xlsm (excel) abiertos al ejecutar el programa
 - Al ejecutarse el programa se crearan 2 archivos en la carpeta "output": "Carga (Fecha_actual) CRN.xlsx" y "Carga para subir (Fecha_actual) CRN.xlsx"
